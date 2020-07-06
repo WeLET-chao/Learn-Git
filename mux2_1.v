@@ -5,6 +5,6 @@ module mux2_1 (
     output c
 );
     
-    assign c = s ? a : b;
+    assign c = s ? b : a;
 
 endmodule
